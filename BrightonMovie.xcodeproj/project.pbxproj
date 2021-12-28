@@ -15,6 +15,10 @@
 		2F339765277ABFC40059EA1C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F339764277ABFC40059EA1C /* SearchBar.swift */; };
 		2F339767277AC5E30059EA1C /* ContentViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F339766277AC5E30059EA1C /* ContentViewDetail.swift */; };
 		2F33976D277AC8FA0059EA1C /* ContentDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33976C277AC8FA0059EA1C /* ContentDetailViewModel.swift */; };
+		2F339772277ADEA60059EA1C /* when_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F33976E277ADEA50059EA1C /* when_search.png */; };
+		2F339773277ADEA60059EA1C /* when_det.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F33976F277ADEA60059EA1C /* when_det.png */; };
+		2F339774277ADEA60059EA1C /* when_sort.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F339770277ADEA60059EA1C /* when_sort.png */; };
+		2F339775277ADEA60059EA1C /* when_fav.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F339771277ADEA60059EA1C /* when_fav.png */; };
 		2F9FF586277AAA92007CC877 /* BrightonMovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9FF585277AAA92007CC877 /* BrightonMovieApp.swift */; };
 		2F9FF588277AAA92007CC877 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9FF587277AAA92007CC877 /* ContentView.swift */; };
 		2F9FF58A277AAA95007CC877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9FF589277AAA95007CC877 /* Assets.xcassets */; };
@@ -51,6 +55,10 @@
 		2F339764277ABFC40059EA1C /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		2F339766277AC5E30059EA1C /* ContentViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewDetail.swift; sourceTree = "<group>"; };
 		2F33976C277AC8FA0059EA1C /* ContentDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailViewModel.swift; sourceTree = "<group>"; };
+		2F33976E277ADEA50059EA1C /* when_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = when_search.png; sourceTree = "<group>"; };
+		2F33976F277ADEA60059EA1C /* when_det.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = when_det.png; sourceTree = "<group>"; };
+		2F339770277ADEA60059EA1C /* when_sort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = when_sort.png; sourceTree = "<group>"; };
+		2F339771277ADEA60059EA1C /* when_fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = when_fav.png; sourceTree = "<group>"; };
 		2F9FF582277AAA92007CC877 /* BrightonMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrightonMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F9FF585277AAA92007CC877 /* BrightonMovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightonMovieApp.swift; sourceTree = "<group>"; };
 		2F9FF587277AAA92007CC877 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -172,6 +180,10 @@
 		2F9FF584277AAA92007CC877 /* BrightonMovie */ = {
 			isa = PBXGroup;
 			children = (
+				2F33976F277ADEA60059EA1C /* when_det.png */,
+				2F339771277ADEA60059EA1C /* when_fav.png */,
+				2F33976E277ADEA50059EA1C /* when_search.png */,
+				2F339770277ADEA60059EA1C /* when_sort.png */,
 				2F339769277AC8480059EA1C /* Models */,
 				2F33976B277AC8550059EA1C /* ViewModels */,
 				2F33976A277AC84F0059EA1C /* Views */,
@@ -329,7 +341,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F9FF58D277AAA95007CC877 /* Preview Assets.xcassets in Resources */,
+				2F339773277ADEA60059EA1C /* when_det.png in Resources */,
+				2F339774277ADEA60059EA1C /* when_sort.png in Resources */,
+				2F339775277ADEA60059EA1C /* when_fav.png in Resources */,
 				2F9FF58A277AAA95007CC877 /* Assets.xcassets in Resources */,
+				2F339772277ADEA60059EA1C /* when_search.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
