@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8854E956B3E776BFC09641 /* Pods_BrightonMovie_BrightonMovieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1855AC2B3CF1EB9576FFD6 /* Pods_BrightonMovie_BrightonMovieUITests.framework */; };
+		2E68F431E448F31F835F19D4 /* Pods_BrightonMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD35165E621A12C7278C3A6C /* Pods_BrightonMovie.framework */; };
+		2F33975E277AAFB00059EA1C /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33975D277AAFB00059EA1C /* Services.swift */; };
+		2F339760277AB2110059EA1C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33975F277AB2110059EA1C /* Model.swift */; };
+		2F339762277AB5CE0059EA1C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F339761277AB5CE0059EA1C /* ContentViewModel.swift */; };
+		2F339765277ABFC40059EA1C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F339764277ABFC40059EA1C /* SearchBar.swift */; };
+		2F339767277AC5E30059EA1C /* ContentViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F339766277AC5E30059EA1C /* ContentViewDetail.swift */; };
+		2F33976D277AC8FA0059EA1C /* ContentDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33976C277AC8FA0059EA1C /* ContentDetailViewModel.swift */; };
+		2F9FF586277AAA92007CC877 /* BrightonMovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9FF585277AAA92007CC877 /* BrightonMovieApp.swift */; };
+		2F9FF588277AAA92007CC877 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9FF587277AAA92007CC877 /* ContentView.swift */; };
+		2F9FF58A277AAA95007CC877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9FF589277AAA95007CC877 /* Assets.xcassets */; };
+		2F9FF58D277AAA95007CC877 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9FF58C277AAA95007CC877 /* Preview Assets.xcassets */; };
+		2F9FF597277AAA95007CC877 /* BrightonMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9FF596277AAA95007CC877 /* BrightonMovieTests.swift */; };
+		2F9FF5A1277AAA95007CC877 /* BrightonMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9FF5A0277AAA95007CC877 /* BrightonMovieUITests.swift */; };
+		2F9FF5A3277AAA95007CC877 /* BrightonMovieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9FF5A2277AAA95007CC877 /* BrightonMovieUITestsLaunchTests.swift */; };
+		845376C4C01EB39584B03010 /* Pods_BrightonMovieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C0681E5E3CD332760426A8 /* Pods_BrightonMovieTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F9FF593277AAA95007CC877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F9FF57A277AAA92007CC877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F9FF581277AAA92007CC877;
+			remoteInfo = BrightonMovie;
+		};
+		2F9FF59D277AAA95007CC877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F9FF57A277AAA92007CC877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F9FF581277AAA92007CC877;
+			remoteInfo = BrightonMovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F3CB715AD8332469F6B411A /* Pods-BrightonMovieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightonMovieTests.release.xcconfig"; path = "Target Support Files/Pods-BrightonMovieTests/Pods-BrightonMovieTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F33975D277AAFB00059EA1C /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		2F33975F277AB2110059EA1C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2F339761277AB5CE0059EA1C /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		2F339763277ABEA20059EA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2F339764277ABFC40059EA1C /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		2F339766277AC5E30059EA1C /* ContentViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewDetail.swift; sourceTree = "<group>"; };
+		2F33976C277AC8FA0059EA1C /* ContentDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailViewModel.swift; sourceTree = "<group>"; };
+		2F9FF582277AAA92007CC877 /* BrightonMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrightonMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9FF585277AAA92007CC877 /* BrightonMovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightonMovieApp.swift; sourceTree = "<group>"; };
+		2F9FF587277AAA92007CC877 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F9FF589277AAA95007CC877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F9FF58C277AAA95007CC877 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F9FF592277AAA95007CC877 /* BrightonMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrightonMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9FF596277AAA95007CC877 /* BrightonMovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightonMovieTests.swift; sourceTree = "<group>"; };
+		2F9FF59C277AAA95007CC877 /* BrightonMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrightonMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9FF5A0277AAA95007CC877 /* BrightonMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightonMovieUITests.swift; sourceTree = "<group>"; };
+		2F9FF5A2277AAA95007CC877 /* BrightonMovieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightonMovieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F6EEF7D03A1519CF62DB5EE /* Pods-BrightonMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightonMovie.debug.xcconfig"; path = "Target Support Files/Pods-BrightonMovie/Pods-BrightonMovie.debug.xcconfig"; sourceTree = "<group>"; };
+		51898AAF7562F3745026F52A /* Pods-BrightonMovie-BrightonMovieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightonMovie-BrightonMovieUITests.release.xcconfig"; path = "Target Support Files/Pods-BrightonMovie-BrightonMovieUITests/Pods-BrightonMovie-BrightonMovieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71C0681E5E3CD332760426A8 /* Pods_BrightonMovieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrightonMovieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FE3BFA412271ED31755B25 /* Pods-BrightonMovie-BrightonMovieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightonMovie-BrightonMovieUITests.debug.xcconfig"; path = "Target Support Files/Pods-BrightonMovie-BrightonMovieUITests/Pods-BrightonMovie-BrightonMovieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F1855AC2B3CF1EB9576FFD6 /* Pods_BrightonMovie_BrightonMovieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrightonMovie_BrightonMovieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD35165E621A12C7278C3A6C /* Pods_BrightonMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrightonMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA13849CC5E624CC609D0D82 /* Pods-BrightonMovieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightonMovieTests.debug.xcconfig"; path = "Target Support Files/Pods-BrightonMovieTests/Pods-BrightonMovieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA539EA27930D46D0761C38C /* Pods-BrightonMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightonMovie.release.xcconfig"; path = "Target Support Files/Pods-BrightonMovie/Pods-BrightonMovie.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F9FF57F277AAA92007CC877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E68F431E448F31F835F19D4 /* Pods_BrightonMovie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9FF58F277AAA95007CC877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845376C4C01EB39584B03010 /* Pods_BrightonMovieTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9FF599277AAA95007CC877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8854E956B3E776BFC09641 /* Pods_BrightonMovie_BrightonMovieUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD014740A5C9CA1989BCE6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F6EEF7D03A1519CF62DB5EE /* Pods-BrightonMovie.debug.xcconfig */,
+				FA539EA27930D46D0761C38C /* Pods-BrightonMovie.release.xcconfig */,
+				72FE3BFA412271ED31755B25 /* Pods-BrightonMovie-BrightonMovieUITests.debug.xcconfig */,
+				51898AAF7562F3745026F52A /* Pods-BrightonMovie-BrightonMovieUITests.release.xcconfig */,
+				CA13849CC5E624CC609D0D82 /* Pods-BrightonMovieTests.debug.xcconfig */,
+				1F3CB715AD8332469F6B411A /* Pods-BrightonMovieTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2F339768277AC83A0059EA1C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2F339764277ABFC40059EA1C /* SearchBar.swift */,
+				2F33975D277AAFB00059EA1C /* Services.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2F339769277AC8480059EA1C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F33975F277AB2110059EA1C /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F33976A277AC84F0059EA1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F9FF587277AAA92007CC877 /* ContentView.swift */,
+				2F339766277AC5E30059EA1C /* ContentViewDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F33976B277AC8550059EA1C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2F339761277AB5CE0059EA1C /* ContentViewModel.swift */,
+				2F33976C277AC8FA0059EA1C /* ContentDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2F9FF579277AAA92007CC877 = {
+			isa = PBXGroup;
+			children = (
+				2F9FF584277AAA92007CC877 /* BrightonMovie */,
+				2F9FF595277AAA95007CC877 /* BrightonMovieTests */,
+				2F9FF59F277AAA95007CC877 /* BrightonMovieUITests */,
+				2F9FF583277AAA92007CC877 /* Products */,
+				0CD014740A5C9CA1989BCE6E /* Pods */,
+				765E674D7CEB9FAF2427BF4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F9FF583277AAA92007CC877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F9FF582277AAA92007CC877 /* BrightonMovie.app */,
+				2F9FF592277AAA95007CC877 /* BrightonMovieTests.xctest */,
+				2F9FF59C277AAA95007CC877 /* BrightonMovieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F9FF584277AAA92007CC877 /* BrightonMovie */ = {
+			isa = PBXGroup;
+			children = (
+				2F339769277AC8480059EA1C /* Models */,
+				2F33976B277AC8550059EA1C /* ViewModels */,
+				2F33976A277AC84F0059EA1C /* Views */,
+				2F339768277AC83A0059EA1C /* Helper */,
+				2F339763277ABEA20059EA1C /* Info.plist */,
+				2F9FF585277AAA92007CC877 /* BrightonMovieApp.swift */,
+				2F9FF589277AAA95007CC877 /* Assets.xcassets */,
+				2F9FF58B277AAA95007CC877 /* Preview Content */,
+			);
+			path = BrightonMovie;
+			sourceTree = "<group>";
+		};
+		2F9FF58B277AAA95007CC877 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F9FF58C277AAA95007CC877 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F9FF595277AAA95007CC877 /* BrightonMovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F9FF596277AAA95007CC877 /* BrightonMovieTests.swift */,
+			);
+			path = BrightonMovieTests;
+			sourceTree = "<group>";
+		};
+		2F9FF59F277AAA95007CC877 /* BrightonMovieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F9FF5A0277AAA95007CC877 /* BrightonMovieUITests.swift */,
+				2F9FF5A2277AAA95007CC877 /* BrightonMovieUITestsLaunchTests.swift */,
+			);
+			path = BrightonMovieUITests;
+			sourceTree = "<group>";
+		};
+		765E674D7CEB9FAF2427BF4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD35165E621A12C7278C3A6C /* Pods_BrightonMovie.framework */,
+				9F1855AC2B3CF1EB9576FFD6 /* Pods_BrightonMovie_BrightonMovieUITests.framework */,
+				71C0681E5E3CD332760426A8 /* Pods_BrightonMovieTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F9FF581277AAA92007CC877 /* BrightonMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9FF5A6277AAA95007CC877 /* Build configuration list for PBXNativeTarget "BrightonMovie" */;
+			buildPhases = (
+				E386B02878F0B08D144D7216 /* [CP] Check Pods Manifest.lock */,
+				2F9FF57E277AAA92007CC877 /* Sources */,
+				2F9FF57F277AAA92007CC877 /* Frameworks */,
+				2F9FF580277AAA92007CC877 /* Resources */,
+				EF9A8ACFF67FDDD19561E544 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrightonMovie;
+			productName = BrightonMovie;
+			productReference = 2F9FF582277AAA92007CC877 /* BrightonMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F9FF591277AAA95007CC877 /* BrightonMovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9FF5A9277AAA95007CC877 /* Build configuration list for PBXNativeTarget "BrightonMovieTests" */;
+			buildPhases = (
+				72BC659E7828548996403218 /* [CP] Check Pods Manifest.lock */,
+				2F9FF58E277AAA95007CC877 /* Sources */,
+				2F9FF58F277AAA95007CC877 /* Frameworks */,
+				2F9FF590277AAA95007CC877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F9FF594277AAA95007CC877 /* PBXTargetDependency */,
+			);
+			name = BrightonMovieTests;
+			productName = BrightonMovieTests;
+			productReference = 2F9FF592277AAA95007CC877 /* BrightonMovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F9FF59B277AAA95007CC877 /* BrightonMovieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9FF5AC277AAA95007CC877 /* Build configuration list for PBXNativeTarget "BrightonMovieUITests" */;
+			buildPhases = (
+				889096822CE677DA9A229B41 /* [CP] Check Pods Manifest.lock */,
+				2F9FF598277AAA95007CC877 /* Sources */,
+				2F9FF599277AAA95007CC877 /* Frameworks */,
+				2F9FF59A277AAA95007CC877 /* Resources */,
+				D2426306B70DC62B6538A032 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F9FF59E277AAA95007CC877 /* PBXTargetDependency */,
+			);
+			name = BrightonMovieUITests;
+			productName = BrightonMovieUITests;
+			productReference = 2F9FF59C277AAA95007CC877 /* BrightonMovieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F9FF57A277AAA92007CC877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					2F9FF581277AAA92007CC877 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					2F9FF591277AAA95007CC877 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 2F9FF581277AAA92007CC877;
+					};
+					2F9FF59B277AAA95007CC877 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 2F9FF581277AAA92007CC877;
+					};
+				};
+			};
+			buildConfigurationList = 2F9FF57D277AAA92007CC877 /* Build configuration list for PBXProject "BrightonMovie" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F9FF579277AAA92007CC877;
+			productRefGroup = 2F9FF583277AAA92007CC877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F9FF581277AAA92007CC877 /* BrightonMovie */,
+				2F9FF591277AAA95007CC877 /* BrightonMovieTests */,
+				2F9FF59B277AAA95007CC877 /* BrightonMovieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F9FF580277AAA92007CC877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9FF58D277AAA95007CC877 /* Preview Assets.xcassets in Resources */,
+				2F9FF58A277AAA95007CC877 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9FF590277AAA95007CC877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9FF59A277AAA95007CC877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72BC659E7828548996403218 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrightonMovieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		889096822CE677DA9A229B41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrightonMovie-BrightonMovieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2426306B70DC62B6538A032 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrightonMovie-BrightonMovieUITests/Pods-BrightonMovie-BrightonMovieUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrightonMovie-BrightonMovieUITests/Pods-BrightonMovie-BrightonMovieUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrightonMovie-BrightonMovieUITests/Pods-BrightonMovie-BrightonMovieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E386B02878F0B08D144D7216 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrightonMovie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF9A8ACFF67FDDD19561E544 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrightonMovie/Pods-BrightonMovie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrightonMovie/Pods-BrightonMovie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrightonMovie/Pods-BrightonMovie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F9FF57E277AAA92007CC877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9FF588277AAA92007CC877 /* ContentView.swift in Sources */,
+				2F33976D277AC8FA0059EA1C /* ContentDetailViewModel.swift in Sources */,
+				2F33975E277AAFB00059EA1C /* Services.swift in Sources */,
+				2F339767277AC5E30059EA1C /* ContentViewDetail.swift in Sources */,
+				2F9FF586277AAA92007CC877 /* BrightonMovieApp.swift in Sources */,
+				2F339760277AB2110059EA1C /* Model.swift in Sources */,
+				2F339762277AB5CE0059EA1C /* ContentViewModel.swift in Sources */,
+				2F339765277ABFC40059EA1C /* SearchBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9FF58E277AAA95007CC877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9FF597277AAA95007CC877 /* BrightonMovieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9FF598277AAA95007CC877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9FF5A3277AAA95007CC877 /* BrightonMovieUITestsLaunchTests.swift in Sources */,
+				2F9FF5A1277AAA95007CC877 /* BrightonMovieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F9FF594277AAA95007CC877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F9FF581277AAA92007CC877 /* BrightonMovie */;
+			targetProxy = 2F9FF593277AAA95007CC877 /* PBXContainerItemProxy */;
+		};
+		2F9FF59E277AAA95007CC877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F9FF581277AAA92007CC877 /* BrightonMovie */;
+			targetProxy = 2F9FF59D277AAA95007CC877 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F9FF5A4277AAA95007CC877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F9FF5A5277AAA95007CC877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F9FF5A7277AAA95007CC877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6EEF7D03A1519CF62DB5EE /* Pods-BrightonMovie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrightonMovie/Preview Content\"";
+				DEVELOPMENT_TEAM = KR7MTTF8X4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrightonMovie/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waver.BrightonMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F9FF5A8277AAA95007CC877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA539EA27930D46D0761C38C /* Pods-BrightonMovie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrightonMovie/Preview Content\"";
+				DEVELOPMENT_TEAM = KR7MTTF8X4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrightonMovie/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waver.BrightonMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F9FF5AA277AAA95007CC877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA13849CC5E624CC609D0D82 /* Pods-BrightonMovieTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR7MTTF8X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waver.BrightonMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrightonMovie.app/BrightonMovie";
+			};
+			name = Debug;
+		};
+		2F9FF5AB277AAA95007CC877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3CB715AD8332469F6B411A /* Pods-BrightonMovieTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR7MTTF8X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waver.BrightonMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrightonMovie.app/BrightonMovie";
+			};
+			name = Release;
+		};
+		2F9FF5AD277AAA95007CC877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72FE3BFA412271ED31755B25 /* Pods-BrightonMovie-BrightonMovieUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR7MTTF8X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waver.BrightonMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrightonMovie;
+			};
+			name = Debug;
+		};
+		2F9FF5AE277AAA95007CC877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51898AAF7562F3745026F52A /* Pods-BrightonMovie-BrightonMovieUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR7MTTF8X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waver.BrightonMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrightonMovie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F9FF57D277AAA92007CC877 /* Build configuration list for PBXProject "BrightonMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9FF5A4277AAA95007CC877 /* Debug */,
+				2F9FF5A5277AAA95007CC877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F9FF5A6277AAA95007CC877 /* Build configuration list for PBXNativeTarget "BrightonMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9FF5A7277AAA95007CC877 /* Debug */,
+				2F9FF5A8277AAA95007CC877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F9FF5A9277AAA95007CC877 /* Build configuration list for PBXNativeTarget "BrightonMovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9FF5AA277AAA95007CC877 /* Debug */,
+				2F9FF5AB277AAA95007CC877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F9FF5AC277AAA95007CC877 /* Build configuration list for PBXNativeTarget "BrightonMovieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9FF5AD277AAA95007CC877 /* Debug */,
+				2F9FF5AE277AAA95007CC877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F9FF57A277AAA92007CC877 /* Project object */;
+}
